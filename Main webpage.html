@@ -8,25 +8,56 @@
             }
         </script>
         <style>
-            body{
-                text-align: center;
-                padding-top: 100px;
-                line-height: 2;
+            /*body{
+                
                 background-image: url('https://wallpapercave.com/wp/wp2939993.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
-            }
+            }*/
             button{
                 border-radius: 10px;
-                width:300px;
-                height:100px;
+                width:150px;
+                height:50px;
                 cursor: pointer;
-                background-color: aqua;
             }
+            .box1{
+                font-size: 20px;
+                text-align: right;
+                word-spacing: 60px;
+                
+            }
+            .box2{
+                text-align: center;
+                padding-top: 100px;
+                display: flex;
+                justify-content: space-around;
+            }
+            .image{
+                width:500px;
+                height:450px;
+            }
+            .content{
+                line-height: 2;
+            }
+            
         </style>
     </head>
     <body>
-        <h1 style="font-size: 50px;">Welcome to <br>Task and Project Management</h1>
-        <br><button style="font-size: 30px;" onclick="redirecttopage('13.html')"><b>Sign In/ Register</b></button>
+        <div class="box1">
+            <a href="" style="text-decoration:none">HOME</a>
+            <a href="" style="text-decoration:none">CONTACT</a>
+            <button onclick="redirecttopage('13.html')"><b>Sign In/ Register</b></button>
+            
+        </div>
+        <div class="box2">
+            <img class="image" src="https://www.manageengine.com/products/service-desk/itsm/images/it-project-management-software.webp">
+            <div class="content">
+                <p style="font-size: 55px;"><b>Task and Project Management</b></p>
+                <p style="font-size: 25px;">Turn your visions into achievements, <br>one task at a time.</p>
+            </div>
+    
+        </div>
+        
+        
     </body>
 </html>
